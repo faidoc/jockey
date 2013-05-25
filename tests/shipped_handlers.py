@@ -65,9 +65,13 @@ EndSection
     def _run_tests(self):
         log_offset = sandbox.log.tell()
         basedir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-        handlers = jockey.detection.get_handlers(self.backend, handler_dir=[
-            os.path.join(basedir, 'examples', 'handlers'),
-            os.path.join(basedir, 'data', 'handlers') ], available_only=False)
+        if os.path.isdir(os.path.join(basedir, 'examples')):
+            handler_dir=[os.path.join(basedir, 'examples', 'handlers'),
+                         os.path.join(basedir, 'data', 'handlers')]
+        else:
+            handler_dir=['/usr/share/jockey/handlers']
+        handlers = jockey.detection.get_handlers(self.backend,
+                handler_dir=handler_dir, available_only=False)
         log = sandbox.log.getvalue()[log_offset:]
 
         self.failIf('Could not instantiate Handler' in log, log)

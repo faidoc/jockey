@@ -206,7 +206,10 @@ class GtkUI(jockey.ui.AbstractUI):
         #if trayicon:
         #   notify.attach_to_status_icon(trayicon)
         notify.set_timeout(10000)
-        notify.show()
+        try:
+            notify.show()
+        except GLib.GError as e:
+            sys.stderr.write('Failed to show notification: %s\n' % str(e))
 
     def ui_idle(self):
         '''Process pending UI events and return.

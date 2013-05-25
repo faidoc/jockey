@@ -334,7 +334,7 @@ class OSLib:
             return 'apt'
         elif os.path.exists('/etc/yum.conf'):
             return 'yum'
-        elif os.patch.exists('/etc/pacman.conf'):
+        elif os.path.exists('/etc/pacman.conf'):
             return 'pacman'
 
         raise NotImplementedError('local packaging system is unknown')
