@@ -118,8 +118,8 @@ class AbstractUI(dbus.service.Object):
                     'org.freedesktop.DBus.Error.FileNotFound',
                     'org.freedesktop.DBus.Error.NoServer'):
                     if self.have_ui:
-                        self.error_message(self._('Cannot connect to D-BUS,'
-                            ' please use the --no-dbus option as root to'
+                        self.error_message(self._('Cannot connect to D-BUS,'+\
+                            ' please use the --no-dbus option as root to'+\
                             ' use jockey without it.'),
                             str(e))
                     else:

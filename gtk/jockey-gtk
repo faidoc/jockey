@@ -206,10 +206,7 @@ class GtkUI(jockey.ui.AbstractUI):
         #if trayicon:
         #   notify.attach_to_status_icon(trayicon)
         notify.set_timeout(10000)
-        try:
-            notify.show()
-        except GLib.GError as e:
-            sys.stderr.write('Failed to show notification: %s\n' % str(e))
+        notify.show()
 
     def ui_idle(self):
         '''Process pending UI events and return.
@@ -277,7 +274,8 @@ class GtkUI(jockey.ui.AbstractUI):
                 pixbuf = theme.load_icon(Gtk.STOCK_REFRESH, 16, Gtk.IconLookupFlags.USE_BUILTIN)
             elif info['enabled']:
                 try:
-                    pixbuf = theme.load_icon('jockey-enabled', 16, 0)
+                    #pixbuf = theme.load_icon('jockey-enabled', 16, 0)
+                    pixbuf = theme.load_icon(Gtk.STOCK_YES, 16, Gtk.IconLookupFlags.USE_BUILTIN)
                 except GLib.Error:
                     pixbuf = theme.load_icon(Gtk.STOCK_YES, 16, Gtk.IconLookupFlags.USE_BUILTIN)
             else:

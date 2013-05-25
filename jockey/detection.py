@@ -168,13 +168,12 @@ class DriverDB:
             assert self._cache_id()
             self.cache_path = os.path.join(OSLib.inst.backup_dir,
                 'driverdb-%s.cache' % self._cache_id())
-            if os.path.exists(self.cache_path):
-                try:
-                    self.cache = pickle.load(open(self.cache_path, 'rb'))
-                except (pickle.PickleError, IOError) as e:
-                    logging.warning('Could not open DriverDB cache %s: %s',
-                        self.cache_path, str(e))
-                    self.cache = None
+            try:
+                self.cache = pickle.load(open(self.cache_path, 'rb'))
+            except (pickle.PickleError, IOError) as e:
+                logging.warning('Could not open DriverDB cache %s: %s',
+                    self.cache_path, str(e))
+                self.cache = None
 
     def query(self, hwid):
         '''Return a set or list of applicable DriverIDs for a HardwareID.

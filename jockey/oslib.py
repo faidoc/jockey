@@ -56,7 +56,10 @@ class OSLib:
         self.module_blacklist_file = '/etc/modprobe.d/blacklist-local.conf'
 
         # path to modinfo binary
-        self.modinfo_path = '/sbin/modinfo'
+        if self.os_vendor == 'arch':
+            self.modinfo_path = '/usr/bin/modinfo'
+        else:
+            self.modinfo_path = '/sbin/modinfo'
 
         # path to modprobe binary
         self.modprobe_path = '/sbin/modprobe'
@@ -129,7 +132,7 @@ class OSLib:
         if m:
             # TODO: check more licenses here
             return m.group(1).lower().startswith('gpl') or \
-                m.group(1).lower() in ('free', 'bsd', 'mpl')
+                m.group(1).lower() in ('free', 'bsd', 'mpl', 'lgpl')
         else:
             raise ValueError('package %s does not exist' % package)
 
@@ -331,6 +334,8 @@ class OSLib:
             return 'apt'
         elif os.path.exists('/etc/yum.conf'):
             return 'yum'
+        elif os.patch.exists('/etc/pacman.conf'):
+            return 'pacman'
 
         raise NotImplementedError('local packaging system is unknown')
 
