@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jockey\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
 "PO-Revision-Date: 2010-06-07 10:27+0000\n"
 "Last-Translator: Ján Dráb <cortex.sk@gmail.com>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: sk\n"
 
 #: ../text/jockey-text.py:72
@@ -42,8 +42,9 @@ msgstr "Upozorňovať na dostupnosť nových ovládačov hardvéru pre systém"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
@@ -106,7 +107,7 @@ msgstr "Neslobodný"
 
 #: ../jockey/ui.py:185
 msgid "Download in progress"
-msgstr "Prebieha sťahovanie"
+msgstr "Sťahovanie prebieha"
 
 #: ../jockey/ui.py:186
 msgid "Unknown driver"
@@ -234,17 +235,16 @@ msgstr "Tento ovládač nie je aktivovaný."
 #: ../jockey/ui.py:362
 msgid "Check for newly used or usable drivers and notify the user."
 msgstr ""
-"Kontrolovať pre novšie používané a užitočné ovládače a upozorniť používateľa."
+"Kontrolovať pre znovu používané a užitočné ovládače a upozorniť používateľa."
 
 #: ../jockey/ui.py:365
 msgid "Query driver databases for newly available or updated drivers."
 msgstr ""
-"Prehľadať databázy ovládačov pre nanovo dostupné alebo aktualizované "
-"ovládače."
+"Dopyt databázy ovládačov pre znovu dostupné alebo aktualizované ovládače."
 
 #: ../jockey/ui.py:368
 msgid "List available drivers and their status."
-msgstr "Uviesť dostupné ovládače a ich stav."
+msgstr "Zoznam dostupných ovládačov a ich stav."
 
 #: ../jockey/ui.py:371
 msgid "Enable drivers that can be automatically installed."
@@ -256,11 +256,11 @@ msgstr "Zobraziť identifikátory hardvéru pre tento systém."
 
 #: ../jockey/ui.py:377
 msgid "Enable a driver"
-msgstr "Povoliť ovládač"
+msgstr "Zapnúť ovládač"
 
 #: ../jockey/ui.py:380
 msgid "Disable a driver"
-msgstr "Zakázať ovládač"
+msgstr "Vypnúť ovládač"
 
 #: ../jockey/ui.py:383
 msgid "Ask for confirmation for --enable/--disable"
@@ -303,7 +303,7 @@ msgstr ""
 
 #: ../jockey/ui.py:539 ../jockey/ui.py:1022
 msgid "Restricted drivers available"
-msgstr "Dostupné neslobodné ovládače"
+msgstr "Dostupné uzavreté ovládače"
 
 #: ../jockey/ui.py:540
 msgid ""
@@ -319,11 +319,11 @@ msgstr "Nové dostupné ovládače"
 
 #: ../jockey/ui.py:544
 msgid "There are new or updated drivers available for your hardware."
-msgstr "K dispozícii sú nové alebo aktualizované ovládače pre váš hardvér."
+msgstr "Nachádzajú sa tu nové alebo aktualizované ovládače pre váš hardvér."
 
 #: ../jockey/ui.py:548
 msgid "New restricted drivers in use"
-msgstr "Používajú sa nové neslobodné ovládače"
+msgstr "Používajú sa nové uzavreté ovládače"
 
 #. %(os)s stands for the OS name. Prefix it or suffix it,
 #. but do not replace it.
@@ -333,8 +333,7 @@ msgid ""
 "In order for this computer to function properly, %(os)s is using driver "
 "software that cannot be supported by %(os)s."
 msgstr ""
-"Aby tento počítač pracoval správne, %(os)s používa ovládače, ktoré %(os)s "
-"nemôže podporovať."
+"%(os)s používa nepodporované ovládače, aby tento počítač pracoval správne."
 
 #: ../jockey/ui.py:577
 msgid ""
@@ -346,7 +345,7 @@ msgstr ""
 
 #: ../jockey/ui.py:583
 msgid "Downloading and installing driver..."
-msgstr "Ovládač sa práve sťahuje a inštaluje..."
+msgstr "Ovládač sa práve preberá a inštaluje..."
 
 #: ../jockey/ui.py:591
 msgid "Removing driver..."
@@ -358,7 +357,7 @@ msgstr ""
 
 #: ../jockey/ui.py:621
 msgid "Use --list to see available drivers"
-msgstr "Použite --list k zobrazeniu dostupných ovládačov"
+msgstr "Použiť --list k zobrazeniu dostupných ovládačov"
 
 #: ../jockey/ui.py:638
 msgid "Cannot change driver"
@@ -366,11 +365,11 @@ msgstr "Nemožno zmeniť ovládač"
 
 #: ../jockey/ui.py:651
 msgid "Enable driver?"
-msgstr "Povoliť ovládač?"
+msgstr "Zapnúť ovládač?"
 
 #: ../jockey/ui.py:654
 msgid "Disable driver?"
-msgstr "Zakázať ovládač?"
+msgstr "Vypnúť ovládač?"
 
 #: ../jockey/ui.py:683
 msgid "Sorry, the Jockey backend crashed. Please file a bug at:"
@@ -462,7 +461,7 @@ msgstr ""
 
 #: ../examples/handlers/sl_modem.py:15 ../data/handlers/sl_modem.py:15
 msgid "Software modem"
-msgstr "Sofvérový modem"
+msgstr "Sofvér modemu"
 
 #: ../examples/handlers/sl_modem.py:17 ../data/handlers/sl_modem.py:17
 msgid ""
@@ -493,10 +492,6 @@ msgid ""
 "\n"
 "This should help you use Ubuntu in your VM."
 msgstr ""
-"Nainštalovať klientské ovládače VMWare pre Vašu inštaláciu Ubuntu vo "
-"VMWare.\n"
-"\n"
-"Toto vám pomôže používať Ubuntu vo vašom VM."
 
 #: ../backend/jockey-backend.py:32
 msgid "Enable debugging messages."
@@ -529,7 +524,6 @@ msgstr "Získať informácie o lokálnych ovládačoch zariadení"
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:2
 msgid "To query the device drivers, you need to authenticate."
 msgstr ""
-"Overenie totožnosti je potrebné na získanie ovládačov pre zariadenia."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:3
 msgid ""
@@ -538,7 +532,7 @@ msgstr "Skontrolovať nové a použité ovládače pre tento systém."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "Overenie totožnosti je potrebné na skontrolovanie stavu ovládačov."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -550,7 +544,6 @@ msgstr ""
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
 msgstr ""
-"Overenie totožnosti je potrebné na získanie aktualizácií databázy ovládačov."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
@@ -559,10 +552,8 @@ msgstr "Inštalovať alebo odstrániť ovládače zariadení"
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
 msgstr ""
-"Overenie totožnosti je potrebné na inštaláciu alebo odstránenie ovládačov "
-"zariadenia."
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "Akcelerovaný grafický ovládač kariet NVIDIA"
 
@@ -582,12 +573,12 @@ msgid ""
 "such as some games."
 msgstr ""
 "Tento ovládač je potrebný k plnému využitiu 3D potenciálu grafických kariet "
-"NVIDIA ako aj k poskytnutiu 2D akcelerácie na novších kartách.\n"
+"NVIDIA ako aj 2D akcelerácie na novších kartách.\n"
 "\n"
-"Ak chcete povoliť efekty prostredia, je potrebné použiť tento ovládač.\n"
+"Ak chcete zapnúť efekty prostredia, je potrebné použiť tento ovládač.\n"
 "\n"
-"Ak zakážete tento ovládač, nebude možné použiť efekty prostredia a používať "
-"programy vyžadujúce 3D akceleráciu napr. niektoré hry."
+"Ak nezapnete tento ovládač, nebude možné použiť efekty prostredia a používať "
+"programy vyžadujúce 3D akceleráciu ako sú napr. niektoré hry."
 
 #~ msgid "Cannot connect to D-BUS"
 #~ msgstr "Nepodarilo sa pripojiť k D-BUS"

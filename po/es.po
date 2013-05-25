@@ -7,20 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
-"PO-Revision-Date: 2012-04-15 15:23+0000\n"
-"Last-Translator: Paco Molinero <paco@byasl.com>\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
+"PO-Revision-Date: 2011-01-03 03:57+0000\n"
+"Last-Translator: Fitoschido <fitoschido@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-04-16 04:38+0000\n"
-"X-Generator: Launchpad (build 15099)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: es\n"
 
 #: ../text/jockey-text.py:72
 msgid "Please enter 'y' or 'n' and press Enter"
-msgstr "Introduzca «s» o «n» y presione Intro"
+msgstr "Introduzca «s» o «n» y pulse Intro"
 
 #: ../text/jockey-text.py:74
 msgid "y\n"
@@ -43,15 +43,16 @@ msgstr ""
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
-"No es posible conectarse a D-BUS, use la opción --no-dbus como administrador "
-"para usar jockey sin él."
+"No se puede conectar a  D-BUS,«+                            », use la opción "
+"--no-dbus como root para «+                            » use jockey sin ella."
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
-msgstr "Buscando controladores disponibles…"
+msgstr "Buscando controladores disponibles..."
 
 #: ../jockey/ui.py:170
 msgid "Component"
@@ -146,13 +147,13 @@ msgstr "Instalar controladores"
 
 #: ../jockey/ui.py:204
 msgid "Restricted Additional Drivers"
-msgstr "Controladores adicionales restringidos"
+msgstr ""
 
 #: ../kde/jockey-kde.desktop.in.h:1 ../jockey/ui.py:206 ../jockey/ui.py:582
 #: ../jockey/ui.py:590 ../jockey/ui.py:598 ../jockey/ui.py:802
 #: ../gtk/jockey-gtk.desktop.in.h:1
 msgid "Additional Drivers"
-msgstr "Controladores adicionales"
+msgstr ""
 
 #: ../jockey/ui.py:216
 msgid "Driver search results"
@@ -256,7 +257,7 @@ msgstr "Listar los controladores disponibles, y su estado."
 
 #: ../jockey/ui.py:371
 msgid "Enable drivers that can be automatically installed."
-msgstr "Activar controladores que se deben instalar automáticamente."
+msgstr ""
 
 #: ../jockey/ui.py:374
 msgid "List hardware identifiers from this system."
@@ -287,7 +288,7 @@ msgid ""
 "Only manage free/nonfree drivers. By default, all available drivers with any "
 "license are presented."
 msgstr ""
-"Gestionar solo controladores libres/no libres. De manera predeterminada se "
+"Gestionar sólo controladores libres/no libres. De manera predeterminada se "
 "presentan todos los controladores con cualquier tipo de licencia."
 
 #: ../jockey/ui.py:395
@@ -354,15 +355,15 @@ msgstr ""
 
 #: ../jockey/ui.py:583
 msgid "Downloading and installing driver..."
-msgstr "Descargando e instalando el controlador…"
+msgstr "Descargando e instalando el controlador..."
 
 #: ../jockey/ui.py:591
 msgid "Removing driver..."
-msgstr "Desinstalando el controlador…"
+msgstr "Desinstalando el controlador..."
 
 #: ../jockey/ui.py:599
 msgid "Downloading and updating package indexes..."
-msgstr "Descargando y actualizando índices de paquetes…"
+msgstr "Descargando y actualizando índices de paquetes..."
 
 #: ../jockey/ui.py:621
 msgid "Use --list to see available drivers"
@@ -411,7 +412,7 @@ msgstr ""
 #: ../jockey/ui.py:930
 #, python-format
 msgid "Searching driver for %s..."
-msgstr "Buscando controladores para %s…"
+msgstr "Buscando controladores para %s..."
 
 #: ../kde/jockey-kde.desktop.in.h:2 ../gtk/jockey-gtk.desktop.in.h:2
 msgid "Configure third-party and proprietary drivers"
@@ -578,9 +579,9 @@ msgid "To install or remove device drivers, you need to authenticate."
 msgstr ""
 "Para instalar o borrar controladores de dispositivo, debe autenticarse."
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
-msgstr "Controlador de aceleración gráfica para tarjetas NVIDIA"
+msgstr "Controlador para tarjetas gráficas NVIDIA"
 
 #: ../examples/handlers/nvidia.py:27
 msgid "3D-accelerated proprietary graphics driver for NVIDIA cards."

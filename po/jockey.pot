@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2012-03-03 22:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,7 @@ msgid "Notify about new hardware drivers available for the system"
 msgstr ""
 
 #: ../jockey/ui.py:121
-msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+msgid "Cannot connect to D-BUS,"
 msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145

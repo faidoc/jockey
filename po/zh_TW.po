@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
-"PO-Revision-Date: 2012-07-03 15:17+0000\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
+"PO-Revision-Date: 2011-02-12 12:56+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-07-04 04:37+0000\n"
-"X-Generator: Launchpad (build 15544)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: \n"
 
 #: ../text/jockey-text.py:72
@@ -30,21 +30,22 @@ msgstr "y\n"
 msgid "n\n"
 msgstr "n\n"
 
-#: ../gtk/autostart/jockey-gtk.desktop.in.h:1
 #: ../kde/autostart/jockey-kde.desktop.in.h:1
+#: ../gtk/autostart/jockey-gtk.desktop.in.h:1
 msgid "Check for new hardware drivers"
 msgstr "檢查是否有新的硬體驅動程式"
 
-#: ../gtk/autostart/jockey-gtk.desktop.in.h:2
 #: ../kde/autostart/jockey-kde.desktop.in.h:2
+#: ../gtk/autostart/jockey-gtk.desktop.in.h:2
 msgid "Notify about new hardware drivers available for the system"
 msgstr "通知有無可供此系統使用的新硬體驅動程式"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
-msgstr "無法連接 D-BUS，請以 root 身份加上 --no-dbus 選項來使用 jockey。"
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
+msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -102,7 +103,7 @@ msgstr "自由"
 #. this is used in the GUI and in --list output to denote free/restricted drivers
 #: ../jockey/ui.py:184
 msgid "Proprietary"
-msgstr "專有"
+msgstr "專屬"
 
 #: ../jockey/ui.py:185
 msgid "Download in progress"
@@ -143,13 +144,13 @@ msgstr "安裝驅動程式"
 
 #: ../jockey/ui.py:204
 msgid "Restricted Additional Drivers"
-msgstr "受限的額外驅動程式"
+msgstr ""
 
 #: ../kde/jockey-kde.desktop.in.h:1 ../jockey/ui.py:206 ../jockey/ui.py:582
 #: ../jockey/ui.py:590 ../jockey/ui.py:598 ../jockey/ui.py:802
 #: ../gtk/jockey-gtk.desktop.in.h:1
 msgid "Additional Drivers"
-msgstr "額外驅動程式"
+msgstr ""
 
 #: ../jockey/ui.py:216
 msgid "Driver search results"
@@ -243,7 +244,7 @@ msgstr "列出可用的驅動程式和它們的狀態。"
 
 #: ../jockey/ui.py:371
 msgid "Enable drivers that can be automatically installed."
-msgstr "啟用可以自動安裝的驅動程式。"
+msgstr ""
 
 #: ../jockey/ui.py:374
 msgid "List hardware identifiers from this system."
@@ -467,9 +468,6 @@ msgid ""
 "\n"
 "This should help you use Ubuntu in your VM."
 msgstr ""
-"為您以 VMWare 為基礎的 Ubuntu 安裝 VMWare Client 客端驅動程式與工具。\n"
-"\n"
-"這應該能幫助您在您的虛擬機器中使用 Ubuntu。"
 
 #: ../backend/jockey-backend.py:32
 msgid "Enable debugging messages."
@@ -501,7 +499,7 @@ msgstr "取得有關本地裝置驅動程式的訊息"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:2
 msgid "To query the device drivers, you need to authenticate."
-msgstr "您需要通過驗證才能查詢裝置驅動程式。"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:3
 msgid ""
@@ -510,7 +508,7 @@ msgstr "檢查新的可用的驅動程式和在系統中已使用的驅動程式
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "您需要通過驗證才能檢查驅動程式的狀態。"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -519,7 +517,7 @@ msgstr "為此系統已更新的驅動程式，查詢本地和遠端驅動程式
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
-msgstr "您需要通過驗證才能查詢驅動程式資料庫是否有更新可用。"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
@@ -527,9 +525,9 @@ msgstr "安裝或移除裝置驅動程式"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
-msgstr "您需要通過驗證才能安裝或移除裝置驅動程式。"
+msgstr ""
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "NVIDIA 影像加速驅動程式"
 
@@ -596,4 +594,4 @@ msgstr ""
 #~ msgstr "系統策略防止查詢裝置驅動程式"
 
 #~ msgid "3D-accelerated proprietary graphics driver for ATI cards."
-#~ msgstr "ATI 卡的專有 3D 加速顯示驅動程式。"
+#~ msgstr "ATI 卡專有的3D影像加速驅動程式。"

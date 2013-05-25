@@ -7,20 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jockey 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
-"PO-Revision-Date: 2012-10-06 21:25+0000\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
+"PO-Revision-Date: 2011-12-23 19:48+0000\n"
 "Last-Translator: Dennis Baudys <Unknown>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-10-07 04:36+0000\n"
-"X-Generator: Launchpad (build 16061)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: de\n"
 
 #: ../text/jockey-text.py:72
 msgid "Please enter 'y' or 'n' and press Enter"
-msgstr "Bitte »j« oder »n« eingeben und die Eingabetaste drücken"
+msgstr "Bitte »y« oder »n« eingeben und die Eingabetaste drücken"
 
 #: ../text/jockey-text.py:74
 msgid "y\n"
@@ -30,24 +30,26 @@ msgstr "j\n"
 msgid "n\n"
 msgstr "n\n"
 
-#: ../gtk/autostart/jockey-gtk.desktop.in.h:1
 #: ../kde/autostart/jockey-kde.desktop.in.h:1
+#: ../gtk/autostart/jockey-gtk.desktop.in.h:1
 msgid "Check for new hardware drivers"
 msgstr "Auf neue Hardware-Treiber prüfen"
 
-#: ../gtk/autostart/jockey-gtk.desktop.in.h:2
 #: ../kde/autostart/jockey-kde.desktop.in.h:2
+#: ../gtk/autostart/jockey-gtk.desktop.in.h:2
 msgid "Notify about new hardware drivers available for the system"
 msgstr ""
 "Über neue oder aktualisierte Treiber für Ihre Hardware benachrichtigen"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
-"Verbindung zu D-BUS kann nicht hergestellt werden. Bitte benutzen Sie den "
-"Parameter --no-dbus als Systemverwalter, um Jockey ohne D-BUS zu verwenden."
+"Verbindung zu D-BUS kann nicht hergestellt werden\"+\" bitte benutzen Sie "
+"den Parameter --no-dbus als Systemverwalter\"+\", um Jockey ohne es zu "
+"verwenden."
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -455,11 +457,11 @@ msgstr ""
 
 #: ../examples/handlers/fglrx.py:17
 msgid "AMD proprietary FGLRX graphics driver"
-msgstr "Proprietärer FGLRX-Grafiktreiber von AMD"
+msgstr "AMD: proprietärer FGLRX-Grafiktreiber"
 
 #: ../examples/handlers/fglrx.py:18
 msgid "3D-accelerated proprietary graphics driver for AMD (ATI) cards."
-msgstr "3D-beschleunigter proprietärer Grafiktreiber für AMD (ATI)-Karten."
+msgstr "Beschleunigter Grafiktreiber für AMD (ATI)-Karten."
 
 #: ../examples/handlers/fglrx.py:20
 msgid ""
@@ -576,13 +578,13 @@ msgstr ""
 "Um Gerätetreiber zu installieren oder zu entfernen, müssen Sie sich "
 "legitimieren."
 
-#: ../data/handlers/nvidia.py:25 ../examples/handlers/nvidia.py:26
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "Beschleunigter Grafiktreiber von NVIDIA"
 
 #: ../examples/handlers/nvidia.py:27
 msgid "3D-accelerated proprietary graphics driver for NVIDIA cards."
-msgstr "3D-beschleunigter proprietärer Grafiktreiber für NVIDIA-Karten."
+msgstr "3-D-beschleunigter proprietärer Grafiktreiber für NVIDIA-Karten."
 
 #: ../examples/handlers/nvidia.py:29
 msgid ""
@@ -627,6 +629,9 @@ msgstr ""
 #~ "Herstellers abhängen. %(os)s kann diese Treiber nicht berichtigen oder "
 #~ "verbessern."
 
+#~ msgid "3D-accelerated proprietary graphics driver for ATI cards."
+#~ msgstr "Beschleunigter Grafiktreiber für ATI-Karten."
+
 #~ msgid ""
 #~ "This driver is required to fully utilise the 3D potential of some ATI "
 #~ "graphics cards, as well as provide 2D acceleration of newer cards."
@@ -657,7 +662,4 @@ msgstr ""
 #~ "Die Systemrichtlinien untersagen die Abfrage des Gerätetreiber-Status"
 
 #~ msgid "ATI/AMD proprietary FGLRX graphics driver"
-#~ msgstr "Proprietärer FGLRX-Grafiktreiber von ATI/AMD"
-
-#~ msgid "3D-accelerated proprietary graphics driver for ATI cards."
-#~ msgstr "3D-beschleunigter proprietärer Grafiktreiber für ATI-Karten."
+#~ msgstr "ATI/AMD: proprietärer FGLRX-Grafiktreiber"

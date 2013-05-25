@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
-"PO-Revision-Date: 2012-07-16 00:58+0000\n"
-"Last-Translator: MinSik CHO <Unknown>\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
+"PO-Revision-Date: 2010-09-23 11:16+0000\n"
+"Last-Translator: Seung Soo, Ha <sungsuha@gmail.com>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-07-17 04:39+0000\n"
-"X-Generator: Launchpad (build 15627)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: ko\n"
 
 #: ../text/jockey-text.py:72
@@ -33,18 +33,19 @@ msgstr "n\n"
 #: ../kde/autostart/jockey-kde.desktop.in.h:1
 #: ../gtk/autostart/jockey-gtk.desktop.in.h:1
 msgid "Check for new hardware drivers"
-msgstr "새로운 하드웨어 드라이버 확인"
+msgstr "새로운 하드웨어 드라이버 점검"
 
 #: ../kde/autostart/jockey-kde.desktop.in.h:2
 #: ../gtk/autostart/jockey-gtk.desktop.in.h:2
 msgid "Notify about new hardware drivers available for the system"
-msgstr "이 시스템에서 사용할 수 있는 새 하드웨어 드라이버를 알려줍니다"
+msgstr "이 시스템을 위한 이용가능한 새로운 하드웨어 드라이버들을 알림"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
-msgstr "D-BUS에 연결할 수 없습니다. D-BUS 없이 사용하려면 관리자로 --no-dbus 옵션을 사용해 실행하십시오."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
+msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -64,7 +65,7 @@ msgstr "사용 안 함(_D)"
 
 #: ../jockey/ui.py:173
 msgid "Enabled"
-msgstr "활성화됨"
+msgstr "활성화"
 
 #: ../jockey/ui.py:174
 msgid "Disabled"
@@ -92,7 +93,7 @@ msgstr "저작권:"
 
 #: ../jockey/ui.py:180
 msgid "details"
-msgstr "세부사항"
+msgstr "세부사항들"
 
 #. this is used in the GUI and in --list output to denote free/restricted drivers
 #: ../jockey/ui.py:182
@@ -143,13 +144,13 @@ msgstr "드라이버 깔기"
 
 #: ../jockey/ui.py:204
 msgid "Restricted Additional Drivers"
-msgstr "제한된 추가 드라이버"
+msgstr ""
 
 #: ../kde/jockey-kde.desktop.in.h:1 ../jockey/ui.py:206 ../jockey/ui.py:582
 #: ../jockey/ui.py:590 ../jockey/ui.py:598 ../jockey/ui.py:802
 #: ../gtk/jockey-gtk.desktop.in.h:1
 msgid "Additional Drivers"
-msgstr "추가 드라이버"
+msgstr ""
 
 #: ../jockey/ui.py:216
 msgid "Driver search results"
@@ -158,7 +159,7 @@ msgstr "드라이버 검색 결과"
 #: ../jockey/ui.py:232
 msgid ""
 "Proprietary drivers are being used to make this computer work properly."
-msgstr "이 컴퓨터가 올바르게 동작하기 위해 독점 드라이버를 사용하고 있습니다."
+msgstr "이 컴퓨터가 제대로 동작하기 위해 독점 드라이버를 사용 중입니다."
 
 #: ../jockey/ui.py:235
 msgid "No proprietary drivers are in use on this system."
@@ -187,7 +188,7 @@ msgstr "펌웨어"
 
 #: ../jockey/ui.py:258
 msgid "Device driver"
-msgstr "장치 드라이버"
+msgstr "제한된 드라이버"
 
 #: ../jockey/ui.py:268
 #, python-format
@@ -196,7 +197,7 @@ msgstr "버젼 %s"
 
 #: ../jockey/ui.py:322
 msgid "_Remove"
-msgstr "제거 (_R)"
+msgstr "지우기(_R)"
 
 #: ../jockey/ui.py:324
 msgid "_Deactivate"
@@ -220,7 +221,7 @@ msgstr "활성화(_A)"
 
 #: ../jockey/ui.py:338
 msgid "This driver was just disabled, but is still in use."
-msgstr "이 드라이버를 비활성화되었지만 사용하고 있습니다."
+msgstr "이 드라이버는 손상되었거나 지워졌지만, 계속 사용 중 입니다."
 
 #: ../jockey/ui.py:340
 msgid "A different version of this driver is in use."
@@ -232,7 +233,7 @@ msgstr "이 드라이버는 활성화 되지 않았습니다."
 
 #: ../jockey/ui.py:362
 msgid "Check for newly used or usable drivers and notify the user."
-msgstr "새로 사용하거나 사용할 수 있는 드라이버를 확인하고 사용자에게 알려줍니다."
+msgstr "새로 사용되거나 사용할 수 있게 된 드라이버를 체크하고 사용자에게 알립니다."
 
 #: ../jockey/ui.py:365
 msgid "Query driver databases for newly available or updated drivers."
@@ -244,7 +245,7 @@ msgstr "이용 가능한 드라이버와 현재 상태를 표시합니다."
 
 #: ../jockey/ui.py:371
 msgid "Enable drivers that can be automatically installed."
-msgstr "자동으로 설치할 수 있는 드라이버를 사용합니다."
+msgstr "알아서 깔 수 있는 드라이버 켜기"
 
 #: ../jockey/ui.py:374
 msgid "List hardware identifiers from this system."
@@ -252,7 +253,7 @@ msgstr "운영체제에서 확인한 하드웨어 목록"
 
 #: ../jockey/ui.py:377
 msgid "Enable a driver"
-msgstr "드라이버 사용"
+msgstr "드라이버를 씁니다."
 
 #: ../jockey/ui.py:380
 msgid "Disable a driver"
@@ -266,13 +267,13 @@ msgstr "사용/비사용을 위해 질문합니다."
 msgid ""
 "Check if there is a graphics driver available that supports composite and "
 "offer to enable it"
-msgstr "컴포지트 기능을 지원하는 그래픽 드라이버가 있는지 확인하고, 사용하도록 사용자에게 알려줍니다."
+msgstr "composite 기능을 지원하는 그래픽 드라이버가 있는지 검사하여 그 기능을 사용하도록 합니다."
 
 #: ../jockey/ui.py:391
 msgid ""
 "Only manage free/nonfree drivers. By default, all available drivers with any "
 "license are presented."
-msgstr "자유/비자유 드라이버 만을 관리합니다. 기본적으로는 라이선스와 상관 없이 이용 가능한 모든 드라이버가 표시됩니다."
+msgstr "오직 자유/비자유 드라이버만을 관리합니다. 기본적으로는 라이센스와 상관 없이 이용 가능한 모든 드라이버가 표시됩니다."
 
 #: ../jockey/ui.py:395
 msgid "Run as session D-BUS server."
@@ -281,13 +282,13 @@ msgstr "D-BUS 서버로 세션 시작"
 #: ../jockey/ui.py:397
 msgid ""
 "Do not use D-BUS for communicating with the backend. Needs root privileges."
-msgstr "백엔드와 통신할 때 D-BUS를 사용하지 않습니다. 관리자 권한이 필요합니다."
+msgstr ""
 
 #: ../jockey/ui.py:399
 msgid ""
 "Use a different target kernel version than the currently running one. This "
 "is only relevant with --no-dbus."
-msgstr "현재 사용하는 커널이 아닌 다른 버전의 커널을 사용합니다. --no-dbus 옵션에만 관계가 있습니다."
+msgstr ""
 
 #: ../jockey/ui.py:539 ../jockey/ui.py:1022
 msgid "Restricted drivers available"
@@ -336,7 +337,7 @@ msgstr "드라이버 제거 중입니다...."
 
 #: ../jockey/ui.py:599
 msgid "Downloading and updating package indexes..."
-msgstr "패키지 색인을 내려받아 업데이트 중입니다..."
+msgstr "다운로드 및 꾸러미 색인을 업데이트..."
 
 #: ../jockey/ui.py:621
 msgid "Use --list to see available drivers"
@@ -372,13 +373,13 @@ msgstr "로그파일에서 자세히 볼 수 있습니다."
 
 #: ../jockey/ui.py:733
 msgid "Download error"
-msgstr "다운로드 오류"
+msgstr "다운로드 에러"
 
 #: ../jockey/ui.py:860
 msgid ""
 "Downloading package indexes failed, please check your network status. Most "
 "drivers will not be available."
-msgstr "패키지 색인 다운로드에 실패하였습니다. 네트워크 상태를 확인하십시오. 대부분의 드라이버를 사용할 수 없습니다."
+msgstr "꾸러미 색인 다운로드 실패, 네트워크 상태를 점검하세요. 대부분의 드라이버를 사용할 수 없게 됩니다."
 
 #: ../jockey/ui.py:930
 #, python-format
@@ -406,10 +407,10 @@ msgid ""
 "on some computers this alternate (but proprietary) driver still works "
 "better, or at all."
 msgstr ""
-"반드시 무선랜 (Wi-Fi) 연결에 문제가 있을 경우에만 이 드라이버를 활성화시키세요.\n"
+"반드시 무선랜 연결에 문제가 있을 경우에만 이 드라이버를 동작시키십시요.\n"
 "\n"
-"기본으로 제공되는 자유 드라이버인 \"ath5k\"가 최근에는 대부분의 Atheros 카드를 지원합니다. 몇몇 컴퓨터에서만 저작권이 있는 "
-"대체 드라이버가 잘 작동할 수 있습니다."
+"무료 드라이버인 \"ath5k\" 는 대부분의 Atheros 카드를 지원합니다만, 몇 컴퓨터상에서는 이 (저작권 있는) 대체 드라이버가 "
+"더 잘 작동할수도 그렇지 않을수도 있습니다."
 
 #: ../examples/handlers/madwifi.py:38 ../data/handlers/madwifi.py:38
 #, python-format
@@ -420,7 +421,7 @@ msgstr "설정파일 %s 을 제거했습니다."
 #: ../jockey/xorg_driver.py:99
 #, python-format
 msgid "Reconfiguring X.org video drivers is not possible: %s is invalid."
-msgstr "X.org 비디오 드라이버를 다시 설정할 수 없습니다: %s이(가) 올바르지 않습니다."
+msgstr "X.org 비디오 드라이버 재설정이 불가능합니다.: %s 는 유효하지 않음."
 
 #: ../examples/handlers/fglrx.py:17
 msgid "AMD proprietary FGLRX graphics driver"
@@ -434,7 +435,7 @@ msgstr "AMD (ATI) 카드에 쓰이는 3D 가속 독점 그래픽 드라이버"
 msgid ""
 "This driver is required to fully utilise the 3D potential of some AMD (ATI) "
 "graphics cards, as well as provide 2D acceleration of newer cards."
-msgstr "일부 AMD (ATI) 그래픽 카드에서 3D 기능과 2D 가속 기능을 완전하게 사용하려면 이 드라이버가 필요합니다."
+msgstr ""
 
 #: ../examples/handlers/sl_modem.py:15 ../data/handlers/sl_modem.py:15
 msgid "Software modem"
@@ -447,9 +448,9 @@ msgid ""
 "\n"
 "If this driver is not enabled, you will not be able to use your modem."
 msgstr ""
-"이 드라이버는 주로 노트북에서 사용되는 여러 소프트웨어 모뎀을 사용할 수 있도록 합니다.\n"
+"이 드라이버는 주로 노트북에서 사용하는, 여러 소프트웨어 모뎀들을 사용할 수 있게 해 줍니다.\n"
 "\n"
-"이 드라이버가 활성화되지 않아 있으면, 모뎀을 사용할 수 없습니다."
+"만약 이 드라이버를 사용하지 않도록 설정하면, 모뎀을 이용할 수 없게 될 것입니다."
 
 #: ../examples/handlers/vmware-client.py:17
 #: ../data/handlers/vmware-client.py:17
@@ -459,7 +460,7 @@ msgstr "VMWare 클라이언트 도구"
 #: ../examples/handlers/vmware-client.py:18
 #: ../data/handlers/vmware-client.py:18
 msgid "Install VMWare client drivers and tools"
-msgstr "VMWare 클라이언트 드라이버 및 도구 설치"
+msgstr "VMWare 클라이언트 드라이버 및 도구 깔기"
 
 #: ../examples/handlers/vmware-client.py:19
 #: ../data/handlers/vmware-client.py:19
@@ -469,9 +470,6 @@ msgid ""
 "\n"
 "This should help you use Ubuntu in your VM."
 msgstr ""
-"VMWare에 설치한 우분투를 사용하기 위해 VMWare 드라이버와 도구를 설치합니다.\n"
-"\n"
-"이 작업은 VM에서 우분투를 사용하는 것을 도와줍니다."
 
 #: ../backend/jockey-backend.py:32
 msgid "Enable debugging messages."
@@ -495,7 +493,7 @@ msgstr "세션 D-BUS에서 실행(테스트 전용)"
 
 #: ../backend/jockey-backend.py:46
 msgid "Use a different target kernel version than the currently running one."
-msgstr "현재 사용하는 커널이 아닌 다른 버전의 커널을 사용합니다."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:1
 msgid "Get information about local device drivers"
@@ -503,7 +501,7 @@ msgstr "장치 드라이버에 관한 정보 얻기"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:2
 msgid "To query the device drivers, you need to authenticate."
-msgstr "장치 드라이버를 검색하려면, 관리자 권한이 필요합니다."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:3
 msgid ""
@@ -512,7 +510,7 @@ msgstr "시스템에서 사용중인 드라이버와 사용가능한 새로운 �
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "장치 드라이버 상태를 확인하려면, 관리자 권한이 필요합니다."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -521,17 +519,17 @@ msgstr "시스템 드라이버 업데이트를 위한 지역 혹은 원격 드�
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
-msgstr "드라이버 데이터베이스를 확인하여 업데이트를 검색하려면, 관리자 권한이 필요합니다."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
-msgstr "장치 드라이버 설치 또는 제거"
+msgstr "장치 드라이버를 깔거나 지우기"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
-msgstr "장치 드라이버를 설치하거나 제거하려면, 관리자 권한이 필요합니다."
+msgstr ""
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "NVIDIA 그래픽 가속 드라이버"
 
@@ -550,12 +548,12 @@ msgid ""
 "effects and will not be able to run software that requires 3D acceleration, "
 "such as some games."
 msgstr ""
-"이 드라이버는 NVIDIA 그래픽 카드의 3D 기능과 최신 카드의 2D 가속 기능을 사용할 수 있도록 합니다.\n"
+"이 드라이버는 NVIDIA 그래픽 카드의 3D 기능 및 최신 카드의 2D 가속 기능을 완전히 사용하기 위해 필요합니다.\n"
 "\n"
-"데스크탑 효과를 사용하려면 이 드라이버는 필요합니다.\n"
+"여러분이 데스크탑 효과를 사용하고 싶다면, 이 드라이버가 필요합니다.\n"
 "\n"
-"이 드라이버가 활성화되어 있지 않으면, 데스크탑 효과를 사용할 수 없으며, 3D 가속을 필요로 하는 게임과 같은 소프트웨어를 실행할 수 "
-"없습니다."
+"만약 이 드라이버를 사용하지 않게 설정하면, 데스크탑 효과를 사용할 수 없으며 몇몇 게임들과 같이 3D 가속 기능을 필요로하는 "
+"소프트웨어를 실행시킬 수 없을 것입니다."
 
 #~ msgid "Restricted Hardware Drivers"
 #~ msgstr "제한된 하드웨어 드라이버"

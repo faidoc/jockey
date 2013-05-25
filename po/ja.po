@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
-"PO-Revision-Date: 2012-04-27 16:26+0000\n"
-"Last-Translator: Shushi Kurose <md81bird@hitaki.net>\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
+"PO-Revision-Date: 2010-09-22 17:20+0000\n"
+"Last-Translator: epii <public.epii@gmail.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-04-28 04:35+0000\n"
-"X-Generator: Launchpad (build 15149)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: ja\n"
 
 #: ../text/jockey-text.py:72
@@ -42,10 +42,10 @@ msgstr "システム向けの新しいハードウェアドライバーを通知
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
-"D-BUSに接続できません。D-BUSなしでjockeyを利用するには、root権限で --no-dbus オプションを利用してください。"
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -472,9 +472,6 @@ msgid ""
 "\n"
 "This should help you use Ubuntu in your VM."
 msgstr ""
-"VMWare 上に Ubuntu をインストールするため、VMWare のクライアントドライバーとツールをインストールします。\n"
-"\n"
-"これは仮想マシンで Ubuntu を動かす場合に役立ちます。"
 
 #: ../backend/jockey-backend.py:32
 msgid "Enable debugging messages."
@@ -482,11 +479,11 @@ msgstr "デバッグ用メッセージを有効にする。"
 
 #: ../backend/jockey-backend.py:35
 msgid "Write logging messages to a file instead to stderr."
-msgstr "標準エラー出力の代わりにファイルにログメッセージを出力します。"
+msgstr ""
 
 #: ../backend/jockey-backend.py:38
 msgid "Timeout for D-BUS service (default: 600, 0: run forever)"
-msgstr "D-BUS サービスのタイムアウト (デフォルト: 600, 0: 常に動作)"
+msgstr ""
 
 #: ../backend/jockey-backend.py:41
 msgid "Add a custom handler directory."
@@ -506,7 +503,7 @@ msgstr "ローカルデバイスドライバーについて情報を入手する
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:2
 msgid "To query the device drivers, you need to authenticate."
-msgstr "デバイスドライバーへの問い合わせには、認証が必要です。"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:3
 msgid ""
@@ -515,7 +512,7 @@ msgstr "このシステム上の利用されているドライバーや、新し
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "ドライバーの状態を確認するには、認証が必要です。"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -524,7 +521,7 @@ msgstr "システム用にアップデートされたドライバーを、ロー
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
-msgstr "アップデートのためにドライバーデータベースに問い合わせるには、認証が必要です。"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
@@ -532,9 +529,9 @@ msgstr "デバイスドライバーをインストールまたは削除する"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
-msgstr "デバイスドライバーをインストールまたは削除するには、認証が必要です。"
+msgstr ""
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "NVIDIAの高性能グラフィックスドライバー"
 

@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
-"PO-Revision-Date: 2012-04-07 17:20+0000\n"
-"Last-Translator: Dimitar Dimitrov <Unknown>\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
+"PO-Revision-Date: 2011-10-28 14:21+0000\n"
+"Last-Translator: Svetoslav Stefanov <svetlisashkov@yahoo.com>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-04-08 04:36+0000\n"
-"X-Generator: Launchpad (build 15060)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:17+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: bg\n"
 
 #: ../text/jockey-text.py:72
@@ -42,8 +42,9 @@ msgstr "Уведомяване за нови достъпни драйвери �
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
@@ -459,8 +460,6 @@ msgid ""
 "This driver is required to fully utilise the 3D potential of some AMD (ATI) "
 "graphics cards, as well as provide 2D acceleration of newer cards."
 msgstr ""
-"Този драйвер е необходим за да се използва пълният 3D потенциал на някои AMD "
-"(ATI) графични карти, както и предоставя 2D ускорение на новите карти."
 
 #: ../examples/handlers/sl_modem.py:15 ../data/handlers/sl_modem.py:15
 msgid "Software modem"
@@ -541,7 +540,7 @@ msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "За да проверите статуса на драйверите, трябва да се оторизирате"
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -560,9 +559,9 @@ msgstr "Инсталиране или премахване на драйвери
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
-msgstr "За да инсталирате или премахнете драйвери, трябва да се оторизирате."
+msgstr ""
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "NVIDIA ускорени графични драйвери"
 

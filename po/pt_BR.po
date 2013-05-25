@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
 "PO-Revision-Date: 2011-10-07 16:54+0000\n"
 "Last-Translator: Tiago Hillebrandt <tiagoscd@yahoo.com.br>\n"
 "Language-Team: Portuguese (Brazil) <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: \n"
 
 #: ../text/jockey-text.py:72
@@ -42,9 +42,12 @@ msgstr "Notificar sobre novos drivers disponíveis para o sistema"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
+"Não foi possível conectar ao D-BUS,\"+ \" por favor, utilize a opção --no-"
+"dbus como root para\"+ \" usar o jockey sem ele."
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -569,7 +572,7 @@ msgid "To install or remove device drivers, you need to authenticate."
 msgstr ""
 "Para instalar ou remover drivers de dispositivos você precisa autenticar-se."
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "Driver de aceleração de vídeo NVIDIA"
 

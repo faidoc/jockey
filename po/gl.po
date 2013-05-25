@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
 "PO-Revision-Date: 2011-10-13 22:37+0000\n"
 "Last-Translator: Fran Diéguez <Unknown>\n"
 "Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: gl\n"
 
 #: ../text/jockey-text.py:72
@@ -43,8 +43,9 @@ msgstr ""
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
@@ -504,10 +505,6 @@ msgid ""
 "\n"
 "This should help you use Ubuntu in your VM."
 msgstr ""
-"Instalar os controladores e ferramentas do cliente de VMWare na súa "
-"instalación de Ubuntu baseada en VMWare.\n"
-"\n"
-"Isto debería axudarlle no mellor uso de Ubuntu na súa VM."
 
 #: ../backend/jockey-backend.py:32
 msgid "Enable debugging messages."
@@ -545,7 +542,6 @@ msgstr "Obter información acerca dos controladores de dispositivos locais"
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:2
 msgid "To query the device drivers, you need to authenticate."
 msgstr ""
-"Para consultar polos controladores dos dispositivos debe autenticarse."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:3
 msgid ""
@@ -555,7 +551,7 @@ msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "Para comprobar o estado do controlador debe autenticarse."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -567,8 +563,6 @@ msgstr ""
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
 msgstr ""
-"Para comprobar as actualizacións da base de datos de controladores debe "
-"autenticarse."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
@@ -577,9 +571,8 @@ msgstr "Instalar ou eliminar controladores de dispositivos"
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
 msgstr ""
-"Para instalar e quitar controladores de dispositivo debe autenticarse."
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "Controlador de gráficos acelerados de NVIDIA"
 

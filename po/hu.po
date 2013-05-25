@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
 "PO-Revision-Date: 2011-06-27 19:59+0000\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: hu\n"
 
 #: ../text/jockey-text.py:72
@@ -43,11 +43,10 @@ msgstr "Értesítés az elérhető új hardver-illesztőprogramokról"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
-"Nem lehet kapcsolódni a D-BUS-hoz, használja a --no-dbus kapcsolót "
-"rendszergazdaként a jockey használatához nélküle."
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -305,7 +304,7 @@ msgid ""
 "Use a different target kernel version than the currently running one. This "
 "is only relevant with --no-dbus."
 msgstr ""
-"A jelenleg futótól eltérő cél kernelverzió használata. Csak a --no-dbus "
+"A jelenleg futótól eltérő cél kernelverzió használata. Csak a --no-bus "
 "kapcsolóval együtt használható."
 
 #: ../jockey/ui.py:539 ../jockey/ui.py:1022
@@ -580,7 +579,7 @@ msgstr ""
 "Hitelesítés szükséges az illesztőprogramok telepítéséhez vagy "
 "eltávolításához."
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "NVIDIA gyorsított grafikus illesztőprogram"
 

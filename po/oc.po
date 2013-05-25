@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po_jockey-oc\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
 "PO-Revision-Date: 2011-12-03 14:29+0000\n"
 "Last-Translator: Cédric VALMARY (Tot en òc) <cvalmary@yahoo.fr>\n"
 "Language-Team: Occitan (lengadocian) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: \n"
 
 #: ../text/jockey-text.py:72
@@ -44,8 +44,9 @@ msgstr "Avisar de la disponibilitat de pilòts novèls disponibles pel sistèma"
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
@@ -508,10 +509,6 @@ msgid ""
 "\n"
 "This should help you use Ubuntu in your VM."
 msgstr ""
-"Installatz las aisinas e pilòts pel client VMWare per vòstra installacion "
-"d'Ubuntu basada sus VMWare.\n"
-"\n"
-"Aquò vos deuriá ajudar a utilizar Ubuntu dins vòstra Maquina Virtuala (MV)."
 
 #: ../backend/jockey-backend.py:32
 msgid "Enable debugging messages."
@@ -548,7 +545,7 @@ msgstr "Obténer d'informacions suls pilòts de periferics locals"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:2
 msgid "To query the device drivers, you need to authenticate."
-msgstr "Vos cal vos autentificar per far la lista dels pilòts de periferics."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:3
 msgid ""
@@ -557,7 +554,7 @@ msgstr "Verificar la disponibilitat de pilòts novèls per aqueste sistèma"
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:4
 msgid "To check the driver status, you need to authenticate."
-msgstr "Vos cal vos autentificar per verificar l'estat del pilòt."
+msgstr ""
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:5
 msgid ""
@@ -569,8 +566,6 @@ msgstr ""
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
 msgstr ""
-"Vos cal vos autentificar per recercar de mesas a jorn dins las bancas de "
-"donadas de pilòts."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
@@ -579,9 +574,8 @@ msgstr "Installar o suprimir de gestionaris de periferics"
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:8
 msgid "To install or remove device drivers, you need to authenticate."
 msgstr ""
-"Vos cal vos autentificar per installar o suprimir de pilòts de periferics."
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "Pilòt d'acceleracion grafica NVIDIA"
 

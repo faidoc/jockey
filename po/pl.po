@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: restricted-manager\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-05 06:47+0100\n"
+"POT-Creation-Date: 2011-12-08 12:28+0100\n"
 "PO-Revision-Date: 2011-11-04 20:54+0000\n"
 "Last-Translator: Mateusz Tybura <wujciol@gmail.com>\n"
 "Language-Team: Aviary.pl <dominikowski@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-03-06 04:37+0000\n"
-"X-Generator: Launchpad (build 14900)\n"
+"X-Launchpad-Export-Date: 2012-01-10 05:18+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "X-Poedit-Country: Poland\n"
 "Language: \n"
 "X-Poedit-Language: Polish\n"
@@ -45,9 +45,12 @@ msgstr ""
 
 #: ../jockey/ui.py:121
 msgid ""
-"Cannot connect to D-BUS, please use the --no-dbus option as root to use "
-"jockey without it."
+"Cannot connect to D-BUS,\"+                            \" please use the --"
+"no-dbus option as root to\"+                            \" use jockey "
+"without it."
 msgstr ""
+"Nie można połączyć z systemem D-BUS. Proszę uruchomić jako użytkownik root, "
+"używając opcji --no-dbus, aby nie używać systemu D-BUS."
 
 #: ../jockey/ui.py:132 ../jockey/ui.py:145
 msgid "Searching for available drivers..."
@@ -565,7 +568,6 @@ msgstr ""
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:6
 msgid "To query the driver databases for updates, you need to authenticate."
 msgstr ""
-"Aby wyszukać aktualizacje baz danych sterowników, należy się uwierzytelnić."
 
 #: ../backend/com.ubuntu.devicedriver.policy.in.h:7
 msgid "Install or remove device drivers"
@@ -576,7 +578,7 @@ msgid "To install or remove device drivers, you need to authenticate."
 msgstr ""
 "Musisz się uwierzytelnić by zainstalować lub usunąć sterowniki urządzeń"
 
-#: ../examples/handlers/nvidia.py:26 ../data/handlers/nvidia.py:28
+#: ../data/handlers/nvidia.py:28 ../examples/handlers/nvidia.py:26
 msgid "NVIDIA accelerated graphics driver"
 msgstr "Wspomagany sprzętowo sterownik kart graficznych NVIDIA"
 
