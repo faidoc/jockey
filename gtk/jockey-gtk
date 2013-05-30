@@ -277,8 +277,7 @@ class GtkUI(jockey.ui.AbstractUI):
                 pixbuf = theme.load_icon(Gtk.STOCK_REFRESH, 16, Gtk.IconLookupFlags.USE_BUILTIN)
             elif info['enabled']:
                 try:
-                    #pixbuf = theme.load_icon('jockey-enabled', 16, 0)
-                    pixbuf = theme.load_icon(Gtk.STOCK_YES, 16, Gtk.IconLookupFlags.USE_BUILTIN)
+                    pixbuf = theme.load_icon('jockey-enabled', 16, 0)
                 except GLib.Error:
                     pixbuf = theme.load_icon(Gtk.STOCK_YES, 16, Gtk.IconLookupFlags.USE_BUILTIN)
             else:
