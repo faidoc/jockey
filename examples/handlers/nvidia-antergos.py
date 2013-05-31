@@ -7,8 +7,6 @@ import logging
 from jockey.handlers import KernelModuleHandler
 from jockey.xorg_driver import XorgDriverHandler
 from jockey.oslib import OSLib
-import XKit
-#from NvidiaDetector.nvidiadetector import NvidiaDetection
 
 # dummy stub for xgettext
 def _(x): return x
@@ -19,8 +17,7 @@ class NvidiaDriver(XorgDriverHandler):
         # use "None" as driver_package, since we have several;
         # LocalKernelModulesDriverDB overwrites it later with the correct
         # package from the modalias lists
-        XorgDriverHandler.__init__(self, backend, 'nvidia', None,
-            'nvidia', 'nv', {'NoLogo': 'True'},
+        XorgDriverHandler.__init__(self, backend, 'nvidia',
             add_modules=[], disable_modules=[],
             remove_modules=[],
             name=_('NVIDIA accelerated graphics driver'),
@@ -34,28 +31,17 @@ class NvidiaDriver(XorgDriverHandler):
                 'If this driver is not enabled, you will not be able to '
                 'enable desktop effects and will not be able to run software '
                 'that requires 3D acceleration, such as some games.'))
-
-        self._recommended = None
+        
+        self.package = 'nvidia'
         self._do_rebind = False
         
     def id(self):
         '''Return an unique identifier of the handler.'''
 
         if self.package:
-            self.version = self.package.split('-')[-1]
-            i = 'xorg:' + self.module + '-' + self.version
-        else:
-            i = 'xorg:' + self.module
-        if self.driver_vendor:
-            i += ':' + self.driver_vendor.replace(' ', '_')
+            i = 'xorg:' + self.package
+
         return i
-    
-    def recommended(self):
-        if self._recommended == None:
-            #nd = NvidiaDetection()
-            #self._recommended = self.package == nd.selectDriver()
-            self._recommended = self.package == 'nvidia'
-        return self._recommended
 
     def enabled(self):
         return KernelModuleHandler.enabled(self)
