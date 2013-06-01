@@ -1,0 +1,5 @@
+alias char-major-195-* nvidia
+alias pci:v000010DEd00000E00sv*sd*bc04sc80i00* nvidia
+alias pci:v000010DEd00000AA3sv*sd*bc0Bsc40i00* nvidia
+alias pci:v000010DEd*sv*sd*bc03sc02i00* nvidia
+alias pci:v000010DEd*sv*sd*bc03sc00i00* nvidia

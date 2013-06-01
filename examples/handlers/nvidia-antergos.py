@@ -17,9 +17,9 @@ class NvidiaDriver(XorgDriverHandler):
         # use "None" as driver_package, since we have several;
         # LocalKernelModulesDriverDB overwrites it later with the correct
         # package from the modalias lists
-        XorgDriverHandler.__init__(self, backend, 'nouveau', None,
+        XorgDriverHandler.__init__(self, backend, 'nvidia', None,
             'nvidia', 'nv', {'NoLogo': 'True'},
-            add_modules=[], disable_modules=[],
+            add_modules=['nvidia'], disable_modules=['nouveau'],
             remove_modules=[],
             name=_('NVIDIA accelerated graphics driver'),
             description=_('3D-accelerated proprietary graphics driver for '
